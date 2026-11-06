@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Data and results (not shared)
+*.npy
+*.npz
+*.zip
+*.mat
+*.edf
+*.png
+*.csv
+*.txt
+!requirements.txt
+!**/utils_data/VepMrtrixLut.txt
+
+# Compiled Stan model
+**/stan/vepmap_hierprior
+**/stan/*.hpp
+**/stan/*.o

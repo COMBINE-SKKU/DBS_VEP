@@ -1,0 +1,17 @@
+name: epileptor-dbs
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy=1.22.4
+  - scipy=1.7.3
+  - numba=0.58.1
+  - pandas=2.0.3
+  - matplotlib=3.7.5
+  - six
+  - cmdstan=2.36.0
+  - pip
+  - pip:
+      - mne==1.6.1
+      - colorednoise==2.2.0
+      - pybv==0.7.5
